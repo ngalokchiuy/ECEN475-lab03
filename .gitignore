@@ -1,2 +1,10 @@
 *.pdf
 *.docx
+*log
+*verdi*
+*simv*
+csrc/
+*.conf
+*.key
+novas.rc
+workspace/
