@@ -18,11 +18,11 @@ module VNU(S, Cs);
 	// Use xor gates for mod
 	
 	// first 3
-	assign Cs[5] = S[0];
+	assign Cs[5] = S[2];
 	assign Cs[4] = S[1];
-	assign Cs[3] = S[2];
+	assign Cs[3] = S[0];
 	// for these, if both hi, then mod2 = 0
-	assign Cs[2] = S[0] ^ S[1];
-	assign Cs[1] = S[1] ^ S[2]; 
+	assign Cs[2] = S[2] ^ S[1];
+	assign Cs[1] = S[1] ^ S[0]; 
 	assign Cs[0] = S[0] ^ S[1] ^ S[2];
 	endmodule
