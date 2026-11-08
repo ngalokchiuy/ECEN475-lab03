@@ -5,7 +5,6 @@ Alexandra Chiu
 UIN - 633008296
 
 ## Instructions from canvas assignment
-
 Verilog: Implement the Variable Node Updating Unit (VNU) and Check Node Updating Unit (CNU), and verify their functionality using the provided testbenches.
 
 Schematic Design: Create and simulate the VNU and CNU schematics in Cadence.
